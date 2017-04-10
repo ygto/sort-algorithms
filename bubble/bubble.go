@@ -1,10 +1,8 @@
-package main
-
-import "fmt"
+package bubble
 
 // process run count
 var runCount int
-
+/*
 func main() {
 	var arr []int
 
@@ -16,9 +14,9 @@ func main() {
 
 	fmt.Println(runCount, bubbleSort(arr))
 
-}
+}*/
 
-func bubbleSort(arr []int) []int {
+func Sort(arr []int) []int {
 
 	l := len(arr)
 	var changed bool
