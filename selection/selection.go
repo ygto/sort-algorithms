@@ -12,7 +12,7 @@ func Sort(arr []int) []int {
 				min = j
 			}
 		}
-		if (min != i) {
+		if min != i {
 			arr[i], arr[min] = arr[min], arr[i]
 		}
 	}
